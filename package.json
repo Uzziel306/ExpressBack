@@ -1,0 +1,31 @@
+{
+  "name": "ExpressBack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzziel306/ExpressBack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uzziel306/ExpressBack/issues"
+  },
+  "homepage": "https://github.com/Uzziel306/ExpressBack#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongojs": "^2.5.0",
+    "xls-to-json": "^0.5.0",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
